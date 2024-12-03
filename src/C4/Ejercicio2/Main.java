@@ -18,9 +18,8 @@ public class Main {
         Socio socio = new Socio(1, "Manuel", 28, "vendedor");
         SocioHabilitado socioHabilitado = new SocioHabilitado(2, "Juan", 32, "consultoria", 25, true);
 
-
         System.out.println("el costo mensual es: " + socio.costoMensual());
-        System.out.println("el costo mensual de la pileta es: " + socioHabilitado.costoMensual());
+        System.out.println("el costo mensual dl socio habilitado: " + socioHabilitado.costoMensual());
         socioHabilitado.costoMensual();
     }
 }
